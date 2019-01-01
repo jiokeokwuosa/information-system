@@ -1,0 +1,304 @@
+html body{
+   font-family: font2;
+   
+  
+}
+@font-face {        
+       font-family: font1;
+       src: url(../fonts/Arkhip_font.ttf) format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {        
+       font-family: font2;
+       src: url(../fonts/Cagliostro-Regular.ttf);
+}
+
+h4.title {
+    font-size: 3em;
+    color:#000033;
+    text-align: center;
+    font-family: font1, font2;
+    
+}
+
+.main-agileits {
+    width: 35%;
+    margin: 0em auto ;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -o-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -moz-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -webkit-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    padding: 3em ;
+}
+
+.user-agileits{
+    margin: 0em auto ;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -o-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -moz-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    -webkit-box-shadow: 0px 0px 15px 0px #D6D6D6;
+    padding: 3em ;
+    font-size: 18px;
+}
+.key  select{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1em;
+    outline: none;
+    color: #999;  
+   
+}
+
+.key1  input[type="submit"]{
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 0;
+    width: 40%;
+    background:#000033;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+	letter-spacing: 1px;
+	    margin-top: 1em;  
+   
+}
+
+.key  input[type="text"] ,.key  input[type="password"], .key input[type="email"] {
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 1em;
+    border: none;
+    border-bottom: none;
+    outline: none;
+    color: #999;
+    float: left;
+    background: none;
+}
+.key i{
+    float: left;
+    color: #999;
+    font-size: 1.1em;
+    padding: 13px;
+}
+.key {
+    background: #fff;
+    border: 1px solid #999;
+    margin-bottom: 2em;
+}
+
+.clearlink a{
+    text-decoration: none;
+    color: inherit;  
+    
+}
+
+.clearlink a:hover{
+    text-decoration: none;
+    color: #CC0033;  
+    
+}
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.color{
+    color:#000033;
+    
+}
+#header1{
+    height: 30px;
+    background-color: #000033;
+    color: white;
+    line-height: 30px;
+}
+#header2{
+   line-height: 35px;
+   
+}
+#header3{
+    height: 50px;
+    background-color: #000033;
+}
+.statistics-grids{
+    margin-top:4em;
+}
+.statistics {
+    padding: 5em 0;
+	text-align:center;
+}
+.statistics-grids {
+    margin-top: 3em;
+}
+.statistic {
+    background: #000033;
+    padding: 2em 2em;
+    border-radius: 50%;
+    width: 100%;
+	text-align:center;
+}
+.statistic h4 {
+    font-size: 3.5em;
+    color: #fff;
+}
+.statistic h5{
+    font-size: 1.8em;
+    color: #fff;
+    padding: .5em 0;
+}
+.statistic p {
+    font-size: 1em;
+    color: #eee;
+    line-height: 1.8em;
+}
+
+/* Bounce To Bottom */
+.statistic {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+ }
+.statistic:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #CC0033;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+      padding: 2em 2em;
+    border-radius: 50%;
+}
+.statistic:hover, .statistic:focus, .statistic:active {
+  color: white;
+}
+.statistic:hover:before, .statistic:focus:before, .statistic:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.contact-left  input[type="text"],.contact-left  select,.contact-left  input[type="password"], .contact-left  input[type="number"] {
+    width: 100%;
+    padding: 0.9em;
+    font-size: 1em;
+    outline: none;
+}
+.contact-left textarea {
+    width: 100%;
+    resize: none;
+    height: 150px;
+       
+}
+.contact-left input[type="submit"], .contact-left input[type="reset"]{
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 0;
+    width: 19.68%;
+    background: #000066;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+	letter-spacing: 1px;
+	    margin-top: 1em;
+}
+.contact-left input[type="submit"]:hover , .contact-left input[type="reset"]:hover{
+    background: #CC0033;
+}
+.contact-left1 input[type="submit"], .contact-left1 input[type="reset"],label.button {
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 1em 0;
+    width: 100%;
+    background: #000033;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+	letter-spacing: 1px;
+	    
+}
+.contact-left1 input[type="submit"]:hover , .contact-left1 input[type="reset"]:hover, label.button:hover {
+    background: #CC0033;
+}
+
+.square{
+    background-color:#000033;
+    border: double 1px white;
+    color: white;
+    font-weight: bolder;
+}
+
+.square1{
+    background-color:#000033;
+    border: double 1px white;
+    color: white;
+    font-weight: bolder;
+    border-radius: 48%;
+}
+
+.icon {
+    text-align: center;
+}
+.icon i {
+    width: 80px;
+    height: 80px;
+    font-size: 2em;
+    border: 3px double red;
+    line-height: 80px;
+    border-radius: 50px;
+    color: green;
+}
+.button{height: 45px;}
+.button li{width: 100%; height: 45px;display: inline-block; background-color:#000033;line-height: 45px;font-weight: bold; margin-bottom: 4px;}
+ .y li{width: 100%; height: 45px;display: inline-block; background-color:red;line-height: 45px;font-weight: bold; margin-bottom: 4px;}
+ .z li{width: 100%; height: 45px;display: inline-block; background-color:green;line-height: 45px;font-weight: bold; margin-bottom: 4px;}
+.button ul{
+  list-style: none;  padding: 0;margin-top: 0px;  
+    
+}
+.button li a{text-decoration: none; color: white;padding-left: 0px;display: block;}
+
+
+
